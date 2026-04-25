@@ -80,8 +80,8 @@ const HushhTechFooter: React.FC<HushhTechFooterProps> = ({
 
   const tabs: FooterTabConfig[] = [
     { ...STATIC_TABS[0], path: "/" },
-    { ...STATIC_TABS[1], path: "/discover-fund-a" },
-    { ...STATIC_TABS[2], path: "/community" },
+    { ...STATIC_TABS[1], path: "/a2a-playground" },
+    { ...STATIC_TABS[2], path: "/about/leadership" },
     {
       id: HushhFooterTab.PROFILE,
       icon: isAuthenticated ? "person" : "login",

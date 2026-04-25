@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "react-toastify/dist/ReactToastify.css";
 import { FaGlobe, FaAt, FaRss, FaPhone } from "react-icons/fa";
 import HushhLogo from "./images/Hushhogo.png";
 import { useAuthSession } from "../auth/AuthSessionProvider";
 
 export default function Footer() {
-  const year = new Date().getFullYear();
+  const [year, setYear] = useState<number | string>("2025");
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
   const { status } = useAuthSession();
   const isLoggedIn = status === "authenticated";
 
