@@ -161,4 +161,4 @@ const HushhTechFooter: React.FC<HushhTechFooterProps> = ({
   );
 };
 
-export default HushhTechFooter;
+export default HushhTechFooter;  
