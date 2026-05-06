@@ -1,0 +1,381 @@
+[33m2543449[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m chore: trigger ci and refresh hygiene
+[33m685f829[m chore: rerun checks
+[33mb0db7ee[m chore: trigger ci
+[33me272042[m chore: trigger ci
+[33mc10a1d2[m fix: resolve hydration mismatch in footer
+[33m9b8006e[m ci(pr-agent): route Gemini reviews through Vertex AI (#829)
+[33m63f0a70[m Merge pull request #828 from hushh-labs/codex/protect-branches-env
+[33mc4243b0[m chore: upgrade PR agent to Gemini
+[33md906940[m chore: tighten PR quality gates
+[33m19035e8[m chore: govern CI/CD, reviews, and repo checks
+[33m9888915[m Merge pull request #753 from hushh-labs/codex/publish-email-updates
+[33mad48495[m fix: harden transactional email rendering
+[33m9eeec39[m feat: reskin transactional email templates (#742)
+[33mc6058c2[m Add public KPI dashboard and reporting APIs (#727)
+[33mf6267ca[m fix: improve gold pass card contrast (#717)
+[33m9c3576a[m feat: refresh gold wallet preview card (#716)
+[33m1290c52[m feat: refresh wallet preview modal styling (#700)
+[33m510fc57[m chore: prepare repo for open source contribution (#696)
+[33m862da09[m Merge pull request #694 from hushh-labs/feat/reduce-wallet-preview-copy
+[33m093df59[m refactor: simplify wallet preview copy
+[33mcc13fd0[m Merge pull request #693 from hushh-labs/hotfix/apple-wallet-type-field
+[33me817a11[m fix: include Apple wallet type in shared payload
+[33md5653b4[m Merge pull request #692 from hushh-labs/feat/shared-wallet-card-model
+[33m056c875[m feat: unify wallet card model across Apple and Google
+[33mcbb887b[m Remove Hushh Agents and fix public investor profiles
+[33m94a0b30[m feat: secure public investor profile with SECURITY DEFINER RPC
+[33m66d7e69[m fix: tighten wallet preview responsive layout
+[33mc3fbc30[m Merge pull request #691 from hushh-labs/fix/delete-account-api-runtime-without-supabase-js
+[33m74fc0af[m fix: remove supabase-js runtime dependency from delete api
+[33m8ff803a[m Merge pull request #690 from hushh-labs/fix/delete-account-prod-server-route
+[33m8a7988f[m fix: ship delete account purge via prod app server
+[33mbe93bee[m Merge pull request #689 from hushh-labs/fix/delete-account-hard-purge
+[33mec41119[m fix: hard delete account data on purge
+[33me28343f[m feat: add wallet preview and google health gating
+[33m3ac9d88[m fix: repair wallet actions behind same-origin proxies
+[33mf343dc6[m fix: enforce 18 plus dob gate on step 6
+[33mcdf9dda[m fix: resolve onboarding and payment supabase 400s
+[33m94879b0[m fix: derive onboarding address line 2 from gps
+[33mb5b6eab[m fix: normalize onboarding GPS address persistence
+[33m0884868[m feat: add production deployment checker script
+[33m0d3f14a[m fix: Address Line 2 auto-fill from GPS - split city/state into line 2
+[33mc538e8d[m Add git commit hash to build version tracking for deployment verification
+[33m4dd0b6f[m Remove redundant Country/State/City dropdowns from step-3 — GPS handles these via gps_country/gps_state/gps_city columns
+[33mba69e07[m fix: update tests for 9-step onboarding renumber — fix flow route expectations, deprecate step4LocationLogic test, skip flaky auth session test
+[33m8d3e60b[m combine onboarding step-3 (country) + step-6 (address) into single page, renumber to 9 steps
+[33m71a16f6[m refactor: renumber onboarding steps after removing step-3 interstitial
+[33m3993e78[m remove onboarding step-3 interstitial per UX review — decrement display steps from 11 to 10
+[33m862e43c[m fix: recurring investment toggle - default OFF, togglable ON/OFF
+[33md0beb24[m Merge pull request #685 from hushh-labs/fix/session-management-audit
+[33m617c111[m fix: comprehensive session management audit — eliminate infinite spinners
+[33me829c67[m fix: prevent 'Verifying access...' infinite loading on re-login (#684)
+[33m8b68f5a[m Merge pull request #683 from hushh-labs/fix/session-persistence-soft-revalidation
+[33m485a3f0[m fix: session persistence — use soft revalidation on tab focus/visibility
+[33m52ce0dc[m Merge pull request #682 from hushh-labs/fix/login-infinite-loading
+[33mbaa825c[m fix: prevent infinite loading on login page with absolute max timeout
+[33m82bd742[m Merge pull request #681 from hushh-labs/fix/cloud-run-onboarding-stability
+[33ma01c085[m Fix main web runtime CI expectations
+[33m0c09b65[m Stabilize Cloud Run onboarding flow
+[33mb758e68[m Merge pull request #680 from hushh-labs/cloud-run-parity-main-web
+[33m55a660e[m Harden main web Cloud Run parity
+[33m6695d96[m Merge pull request #679 from hushh-labs/codex/fix-unsupported-host-login-ux
+[33me924fa9[m Auto-redirect unsupported auth hosts
+[33m8597ff2[m Merge pull request #678 from hushh-labs/codex/fix-web-build-secret-loading
+[33m9fc55c2[m fix web build secret loading
+[33m1cc8230[m Merge pull request #677 from hushh-labs/codex/fix-silent-oauth-web-login
+[33m7e22d13[m fix silent web oauth startup
+[33m888aecc[m Merge pull request #676 from hushh-labs/codex/auth-boundary-remediation
+[33m9f3a549[m fix auth boundaries and guest navigation
+[33mc3cce0f[m Merge pull request #675 from hushh-labs/codex/fix-white-screen-session-reference
+[33m51f3339[m fix white screen crash in app layout
+[33m22657bd[m unify oauth and session management (#674)
+[33mdc9cb10[m Merge pull request #669 from hushh-labs/codex/fix-kai-india-startup-crash
+[33m406c3cf[m fix kai-india startup crash
+[33m3e0f00b[m Merge pull request #666 from hushh-labs/chore/bump-version-1.3.2
+[33m5995320[m chore: bump app version to 1.3.2
+[33m5edbad1[m chore: remove capacitor shells and archive legacy files (#665)
+[33me1eaf82[m Merge pull request #663 from hushh-labs/test/verify-cicd-pipeline
+[33m2d72587[m chore: bump app version to 1.3.1 and add deploy verification marker
+[33m440441b[m fix(tests): align step4LocationLogic tests with current code behavior
+[33m6a96099[m Merge pull request #660 from hushh-labs/fix/safari-white-screen
+[33mb2de88e[m Fix Safari white screen on production
+[33m523749b[m Merge pull request #659 from hushh-labs/codex/remove-hushh-profile-apis
+[33m1da704f[m Remove hushh profile search and shadow APIs
+[33mcbfde1b[m Fix shadow profile Vertex integration (#658)
+[33m6b1b77c[m Merge pull request #657 from hushh-labs/fix/onboarding-gps-autofill-combine-address
+[33m7ad1711[m Merge origin/main into fix/onboarding-gps-autofill-combine-address
+[33m71f75ff[m feat: onboarding GPS autofill improvements - combine address, cascade dropdowns, loading UX
+[33mf159ec2[m Merge pull request #656 from hushh-labs/fix/onboarding-kyc-prefill-flow
+[33maf14f45[m Rework onboarding KYC flow and location prefill
+[33mec926ca[m Merge pull request #655 from hushh-labs/fix/oauth-secret-hygiene
+[33m976b81d[m Fix OAuth config and remove tracked secrets
+[33m5469cac[m Fix OAuth config and remove tracked secrets
+[33mcf4cba0[m chore: remediate high-severity dependabot alerts
+[33m3e209b8[m Harden investor onboarding security rollout (#653)
+[33m928898d[m Merge pull request #652 from hushh-labs/chore/ria-readme-usage-waiting
+[33m0bb417d[m docs: clarify RIA API execution and response validation
+[33mab47a4d[m Merge pull request #651 from hushh-labs/feature-ria-openai-dossier-query-flow
+[33m2406241[m Add RIA intelligence dossier API
+[33me8a7ae7[m fix: hushh-user-profile audit — AI enhance vs save separation + upsert + schema fixes
+[33m5a33a72[m fix: hushh-user-profile audit — separate AI enhance vs save, fix upsert onConflict, schema constraints
+[33m12f5655[m fix: separate Save Changes from Enhance with AI on profile page
+[33m2de3cc5[m Merge branch 'develop'
+[33m8394764[m ux: step-13 improved narrative - explain why manual bank entry is needed, add contextual info banner
+[33m9958cee[m Merge branch 'develop'
+[33mab8979a[m feat: step-13 auto-skip when Plaid/DB already has all bank details - skip form, save completion, go to meet-ceo
+[33m3bf40ff[m Merge branch 'develop'
+[33m269b4f0[m fix: step-8 address - merge line1+line2 into single Address field, move ZIP above Country
+[33m9f58f47[m Merge branch 'develop'
+[33m9f207f7[m fix: remove step-3 interstitial filler - step-2 now goes directly to step-4, step-3 URL redirects to step-4
+[33md20487c[m Merge branch 'develop'
+[33mf974391[m feat: recurring investment toggle - ON shows frequency/day/amount, OFF hides and clears, saves to DB
+[33m96100a5[m Merge branch 'develop'
+[33m432ac8f[m fix: make NDA name input more visible - full-width bordered input with placeholder and helper text
+[33ma2c4439[m Merge branch 'develop'
+[33m40ecaf6[m fix: add all missing Plaid CSP domains (walletlink, infura, seondnsresolve, recaptcha) + Permissions-Policy wildcard + detailed logging
+[33m911469e[m fix: Plaid Link blocked by CSP/Permissions-Policy - fix encrypted-media policy, add shared plaid config, update production keys
+[33m4f04df4[m Merge pull request #642 from hushh-labs/develop
+[33m9209ae8[m fix: add --clear-base-image flag to Cloud Run deploy commands for Dockerfile compatibility
+[33m74ead3e[m Merge pull request #641 from hushh-labs/develop
+[33m2c4756a[m feat: add Apple Private Relay email handling, security audit scripts, CI/CD workflows, and schema updates
+[33m9d767f8[m fix: GCP Cloud Run deployment - runtime-only Dockerfile, optimized CI/CD, fixed .gcloudignore
+[33m22b8b7a[m feat: add all GCP Cloud Run deployment files (server, Docker, build configs)
+[33m413b04c[m fix: add tsconfig.node.json to Docker COPY for vite build
+[33m2c2d6a6[m fix: skip vitest in Docker build, run vite build directly
+[33m99af22d[m fix: add --clear-base-image for Dockerfile-based deploys
+[33m300bc39[m fix: multi-stage Dockerfile for CI/CD (builds dist inside container)
+[33m54d36d3[m ci: add GitHub Actions CI/CD for GCP Cloud Run (UAT + PROD)
+[33mc3f1dad[m feat: add UAT and PROD Cloud Build pipelines for GCP CI/CD
+[33mdae1949[m Merge pull request #637 from hushh-labs/feat/display-ai-investor-profile
+[33mb00dd66[m feat: display AI-generated investor profile and shadow intelligence on user profile page
+[33m6735b68[m Merge pull request #636 from hushh-labs/fix/public-profile-onboarding-design
+[33me200d44[m redesign: public investor profile to match onboarding design system
+[33mda3f284[m Merge pull request #635 from hushh-labs/fix/public-profile-ui-redesign
+[33m85b4e7a[m feat: redesign PublicInvestorProfile UI with hushh design system
+[33m258efc9[m Merge pull request #634 from hushh-labs/fix/profile-link-sharing
+[33m7e27d56[m fix: profile link sharing - shared investor profile URLs now open correctly
+[33me19d42d[m Merge pull request #633 from hushh-labs/feat/step13-plaid-auto-skip
+[33m4130f6d[m fix: profile page fixes - Google icon, NWS text, desktop responsive, hide duplicate header
+[33m1403250[m feat(step13): auto-skip bank details page if Plaid has valid data (#632)
+[33mc1ac4b2[m feat(step13): auto-skip bank details page if Plaid has valid data
+[33m8f27903[m Merge pull request #631 from hushh-labs/fix/meet-ceo-coupon-uppercase
+[33m9b5c257[m fix: coupon code input auto-uppercase + APPLY button all caps on MeetCeo page
+[33mb2bdbe7[m Merge pull request #630 from hushh-labs/fix/step1-recurring-compulsory
+[33me60cede[m fix: make recurring investment compulsory on Step 1 - Remove toggle, always show section, add Required badge
+[33m424d35c[m Merge pull request #629 from hushh-labs/fix/step1-recurring-optional
+[33mc05c846[m fix: make recurring investment optional on step 1 onboarding
+[33m7c3de90[m fix: remove top margin on /profile page by adding it to ContentWrapper exclusion list (#628)
+[33mfa61ff7[m Merge pull request #627 from hushh-labs/fix/profile-remove-logo-hamburger-icons
+[33m6c976be[m fix: remove logo, add hamburger header, fix material icons on profile page
+[33m55a9237[m Merge pull request #626 from hushh-labs/fix/profile-pill-10px-left-align
+[33ma864ae7[m fix: profile pill badge 10px font + left-align all content
+[33m48cd891[m fix: profile page - uppercase PERSON icon fallback + Title Case CTA text (#625)
+[33m1a3854c[m fix: Step1 recurring validation + CTA capitalization + footer golden color (#624)
+[33m793a10c[m fix: Step1 recurring validation + CTA capitalization + footer golden color
+[33ma12c87e[m feat: add fund documents acknowledgment to NDA signing flow (#604)
+[33m2454553[m fix: update location tests + null guard for cities fallback (#602)
+[33me88f0d3[m fix: add Authorization header to location API calls — cities now load (#601)
+[33m7685ff0[m fix: step-8 location detection bugs — cascade reset, fallback API, dead code (#600)
+[33ma07484d[m fix: hide Frequency/Day/Amount when Recurring Investment toggle is OFF (#599)
+[33m82c9550[m fix: increase Fund A card number sizes — 18-23% → 48px, 2024 → 36px (#598)
+[33m66ce256[m fix: Fund A card typography — Playfair for title+numbers, Manrope for labels (#597)
+[33m1831ad2[m fix: allow encrypted-media and accelerometer for Plaid Link iframe (#596)
+[33m809c8a9[m refactor: migrate legacy Navbar to HushhTechHeader on 3 pages (#595)
+[33mf594693[m fix: use fixed positioning for header so it stays on scroll (#594)
+[33m4fc9651[m fix: make HushhTechHeader sticky on scroll (#593)
+[33m1dda125[m feat: add stock ticker strip to HushhTechHeader (#592)
+[33mbe7f308[m revert: restore codebase to fc0ed09 state (per manager directive) (#591)
+[33mcb194ac[m feat: Plaid reconnect button + production link token fix (#590)
+[33mbc7d4b1[m docs: add Plaid implementation audit with architecture diagrams and security assessment
+[33m65c6c7c[m Merge pull request #589 from hushh-labs/investor-onBoarding-revamp-steps
+[33mee18720[m feat: Implement a comprehensive fundraise investment flow including question, information, checkout, and signup pages, along with supporting UI components, context, and assets.
+[33m9248eb3[m Merge pull request #588 from hushh-labs/ui-revamp-similar-to-fundrise.com
+[33m40cc17f[m feat: introduce Hero component for the home page, featuring iOS-native design, investment intro, and onboarding flow.
+[33mc39a235[m feat: Implement a comprehensive onboarding flow, various new website pages, and core UI components.
+[33m816d268[m feat: Implement Plaid financial linking and new onboarding screens for KYC verification.
+[33m4a4f086[m feat: Implement comprehensive onboarding flow with multiple steps, core UI components, and initial home page UI.
+[33m75515df[m feat: premium Tinder card — golden border, split photo/info, floating heart, Material icons
+[33m56d7182[m feat: enriched 771 agents with photos + multi-photo gallery card
+[33m667f519[m feat: Full-bleed Tinder card redesign — category gradients + bottom overlay
+[33m2992011[m fix: Tinder UX polish — visible card stack, button fly-away animation, remove crop marks
+[33med7bf5b[m feat: Tinder-style swipe experience for Kirkland agents
+[33m726b905[m fix: isolate hushh-agents as separate product — bypass GlobalNDAGate
+[33m4cd4a72[m feat: redesign LoginPage to match Saturn editorial design language
+[33me5528ce[m feat: auth guardrail — unauthenticated users redirected to login on all product links
+[33m6dea93d[m feat: Saturn editorial nav drawer — dashed borders, active states, subtitles, trust badge
+[33maabcf61[m feat: production delete account modal + session cache cleanup
+[33m85de805[m feat: session-aware nav drawer with card-style links, logout + delete account
+[33m1eb5990[m fix: resolve broken Hushhogo.png import paths in hushh-agents
+[33m82c204a[m Merge pull request #585 from hushh-labs/fix/hushh-agents-nav-login
+[33m3e75cde[m fix: hushh-agents nav, login page, and auth isolation
+[33mb02b60f[m Merge pull request #584 from hushh-labs/fix/responsive-cta-buttons
+[33m26ac813[m fix: responsive CTA buttons — prevent stacking/breaking on all screens
+[33m25b6c44[m Merge pull request #583 from hushh-labs/fix/step4-skeleton-on-refresh
+[33m873fb76[m feat: show skeleton shimmer bars on address fields during GPS refresh
+[33m075b8e1[m Merge pull request #582 from hushh-labs/fix/step4-refresh-icons
+[33m2828cc0[m feat: add refresh icon to every address field in Step 4
+[33m136e237[m Merge pull request #581 from hushh-labs/fix/onboarding-misc-updates
+[33m6f0eebe[m fix: onboarding misc updates - CTA, NDA, location, auth, routing
+[33m03a53b2[m Merge pull request #580 from hushh-labs/fix/step4-city-dropdown-step5-plaid-lock
+[33m157801a[m fix: remove city dropdown from step-4, add Plaid lock icon on step-5 phone field
+[33m7a26833[m Revert "Merge pull request #579 from hushh-labs/fix/merge-step8-into-step4"
+[33m098dd6f[m Merge pull request #579 from hushh-labs/fix/merge-step8-into-step4
+[33m9984b09[m fix: merge Step 8 (address) into Step 4 — remove duplicate KYC step
+[33m7048adf[m Merge pull request #578 from hushh-labs/fix/step8-city-root-cause
+[33m897c43a[m fix: Step 8 city not pre-filling — rewrite init with proper data priority
+[33m245ed79[m Merge pull request #577 from hushh-labs/fix/step8-city-prefill
+[33m61ae987[m fix: Step 8 city not pre-filling — improve fuzzy matching + Plaid fallback
+[33m8cd0622[m Merge pull request #576 from hushh-labs/feat/step4-plaid-citizenship
+[33m61c824a[m feat: pre-fill citizenship from Plaid identity data, pass city info
+[33me4d6ce6[m Merge pull request #575 from hushh-labs/fix/nda-cta-fullwidth
+[33m3c66164[m fix: NDA CTA stays full width on desktop (md:w-full override)
+[33m11d1aa3[m Merge pull request #574 from hushh-labs/fix/cta-wrap-content
+[33m97465f4[m fix: CTA buttons wrap content on desktop instead of full width
+[33m789a4a1[m Merge pull request #573 from hushh-labs/fix/nda-responsive
+[33mc48fcb6[m fix: make sign-nda page responsive for tablet & desktop
+[33ma75b2c9[m Merge pull request #572 from hushh-labs/fix/fund-a-cta-layout
+[33m6c156d3[m fix: CTA layout — stack below text, side-by-side on md+ with w-fit
+[33m95f3fba[m Merge pull request #571 from hushh-labs/fix/fund-a-responsive
+[33mc7cfaca[m fix: make discover-fund-a page responsive for tablet & desktop
+[33m661e62c[m Merge pull request #570 from hushh-labs/fix/production-bugs-nav-nda-cta
+[33m10216d1[m fix: nav drawer auth, delete-account guard, NDA apple sign-in, CTA capitalize
+[33m54a6e55[m Merge pull request #569 from hushh-labs/fix/nws-to-net-worth-score
+[33m3d89b33[m fix: rename NWS to Net Worth Score in profile page
+[33mb7d80ee[m Merge pull request #567 from hushh-labs/fix/home-page-responsive
+[33m5d7b945[m fix: make home page fully responsive for tablet & desktop
+[33mea084fe[m fix: make community events page responsive — scales from mobile to desktop, same design
+[33me69664d[m fix: sealed HushhTechFooter — auto-detects active tab, center logo → /community (blogs), COMM → /community/events, removed all activeTab/HushhFooterTab props from pages
+[33md344041[m fix: lock down HushhTechFooter — center logo always → Home, remove all onTabChange/onLogoClick overrides from 6 pages
+[33m93da365[m feat: make /community/events fully public — no login required, add storage policy SQL
+[33me4ec133[m fix: financial-link back arrow navigates to home instead of navigate(-1)
+[33mb60d7d6[m fix: make delete-account resilient — add missing tables, safeDelete pattern, never 500
+[33m72ab09a[m fix: use AuthOnlyRoute for /community/events — no onboarding/financial-link redirect
+[33m7e06b27[m security: protect /community/events route — require login
+[33m6c195c8[m fix: COMM tab → /community/events, center logo → /community (blog)
+[33m7eb3137[m fix: restore blog to /community, events to /community/events, center logo navigates to events
+[33m8f5ef58[m fix: remove bottom nav bar from community events page - standalone layout
+[33m7ca0738[m Merge pull request #564 from hushh-labs/feature/community-events-page
+[33m7383229[m feat: add community events page with registration form
+[33mc04ff5d[m feat: agent onboarding flow — form, email notify, activation
+[33m148ada0[m feat: add MCP agent card Supabase Edge Function - live & tested
+[33mc1e88e2[m feat: add MCP Agent Card API endpoint (#561)
+[33m9322461[m fix: add API key retry fallback - tries all keys when one fails
+[33m9e90d05[m chore: trigger deployment for agent chat fix
+[33mf4a419d[m fix: agent chat now uses Supabase Edge Function instead of broken Vercel API
+[33m3df2815[m feat: shared AgentAvatar component with unique gradient colors per agent
+[33m5bb86a3[m feat: separate agent chat page with Gemini API
+[33m6eb0612[m fix: mobile responsiveness for Hushh Code page and MarkdownRenderer
+[33m0ece3e3[m feat: add major category filters, MCP badges, and agent-specific chatbot
+[33m05fd2ee[m fix(hushh-agents): make all pages responsive for mobile/tablet/desktop
+[33m7ae5e9a[m fix(markdown): always-visible copy button with language header bar on code blocks
+[33mcf376c5[m feat(hushh-agents): add markdown rendering for AI responses
+[33mf8fef10[m feat(hushh-agents): add chat history persistence with localStorage
+[33me7bcf99[m fix: add conversation history to Hushh Code — context persists across messages
+[33m870ed00[m fix: move Kirkland Agents to top of agent list on HomePage
+[33m44656de[m refactor: redesign Hushh Agents HomePage & login to match KYC patterns + Apple colors
+[33m94229f8[m refactor: redesign Kirkland Agents UI to match KYC onboarding patterns
+[33mbb9b9e1[m feat: add Kirkland Agents directory — 771 agents with listing, detail, search, and filtering
+[33m72d384c[m rebrand: Replace Claude Opus 4.5 with Hushh Intelligence Core
+[33mfc0ed09[m refactor: Make Hushh Code a separate standalone agent card
+[33m942c93d[m feat: Add Hushh Code - Claude Opus 4.5 via Vertex AI
+[33m25f4411[m fix: Use correct Supabase URL for voice token
+[33m364a194[m feat: Add fallback client-side connection for voice
+[33m947f1ab[m feat: Use Supabase Edge Function for voice token
+[33m14c6402[m fix: Fix API route and rebrand to Hushh Live API
+[33meaa39c5[m feat: Add dedicated Tamil Voice Assistant page with Gemini Live API
+[33m7b30aaf[m feat: Add Tamil Voice nudge with Gemini Live API support
+[33m0e984d6[m fix: Fix tracking migration constraint issue
+[33m078219c[m feat(hushh-agents): Add comprehensive user tracking
+[33m0cbb363[m fix(hushh-agents): Standalone layout without main app footer
+[33mb9e0690[m style(hushh-agents): Clean UI matching design system
+[33ma098b5f[m feat(hushh-agents): Fully working AI Agents with 4 API keys
+[33med21cff[m feat(hushh-agents): Complete AI Agents module with GCP integration
+[33m4f030bc[m fix: Add API serverless functions to Vercel builds
+[33mbbfd356[m feat(hushh-agents): Use Vercel serverless function for Gemini API
+[33m8c9ad6d[m feat(hushh-agents): Add secure Supabase Edge Function for Gemini API
+[33mc5a668d[m fix(hushh-agents): Improve OAuth redirect handling for hushh-agents module
+[33me1f7d9f[m feat: Add Hushh Agents module with GCP Gemini AI integration (#560)
+[33m7d4998c[m fix: brand name → all lowercase 'hushh' in header & nav drawer (#559)
+[33m4ced183[m feat: FAQs bottom sheet — accordion categories, auto-opens from HushhTechBackHeader (#558)
+[33mf83d0d1[m revamp: financial-link — unified section headers, proper English labels, ios-green success icons (#557)
+[33m1df7436[m revamp: sign-nda — hushh-blue accents, proper English, unified design language (#556)
+[33m8fc7b4a[m revamp: step-11 + step-13 + verify-identity + verify-complete + meet-ceo — unified design language (#555)
+[33ma2b67e4[m revamp: step-7 + step-8 + step-9 — hushh-blue accents, proper English, ios-green badges, remove textTransform lowercase (#554)
+[33m855b255[m fix: header branding — bigger logo (w-11), bolder text (18px bold), uppercase TECHNOLOGIES (#553)
+[33ma68edfd[m revamp: step-3 + step-4 + step-5 — hushh-blue accents, proper English, ios-green badges (#552)
+[33m16e8e38[m revamp: financial-link + step-1 + step-2 — hushh-blue accents, proper capitalization, rounded pills (#551)
+[33m79b173a[m revamp: delete account — hushh-blue accents, HushhTechCta, proper capitalization, colored icons (#549)
+[33m8be211e[m revamp: nav drawer — hushh-blue hover accents, proper capitalization, fixed Fund A path (#548)
+[33m7270f7c[m revamp: hushh-user-profile — Apple iOS colors, Playfair headings, proper capitalization, footer nav (#547)
+[33m7b0ad3c[m revamp: profile, login, signup — Apple iOS colors, Playfair headings, proper capitalization (#546)
+[33mc89511b[m revamp: community pages — Apple iOS colors, Playfair headings, proper capitalization (#545)
+[33m6f9880a[m fix: add font-serif class so Playfair Display loads on homepage headings (#544)
+[33meaaccfe[m feat: colored icons on Fund A FeatureCards — Apple iOS palette (#543)
+[33m8e36991[m fix: add no-cache headers for all SPA routes
+[33mb4d2d28[m feat: Apple iOS color tokens on Fund A — design structure preserved (#542)
+[33mf30b750[m fix: restore Fund A original design — only capitalization + subheading changed (#541)
+[33mc146708[m feat: hero text styling — 2.75rem Playfair, font-normal, gray italic subtitle (#540)
+[33m8066092[m feat: Apple iOS colors + proper English capitalization on Fund A page (#539)
+[33m849c396[m fix: proper English capitalization on homepage (#538)
+[33m10e58e1[m feat: Apple iOS core app colors on homepage (#537)
+[33m8d36ab2[m fix: homepage design consistency — match onboarding/profile design language (#536)
+[33mbbece03[m feat: non-blocking background AI processing — no timeout, per-API status, persistent banner (#535)
+[33me602e16[m fix: Enhance with AI button was broken — handleSave called querySelector('form') but no form existed (#534)
+[33mae16e67[m fix: add edge case handling for profile enhance & share (#533)
+[33mf64ece1[m fix: make profiles public by default + show partial AI results (#532)
+[33m0b54b68[m fix: update mock user_coins from 100 to 300000 (correct  credit) (#531)
+[33m40bf3b2[m feat(step7): pre-fill legal name from Plaid identity data (#530)
+[33m5bbd152[m feat(step5): pre-fill phone from Plaid identity data (#529)
+[33mbd1512f[m fix: restore Plaid integration in financial-link — Continue now opens Plaid Link, fetches real data (#528)
+[33mda7d25b[m fix: sign-nda — redesign with onboarding step 1-8 design language + HushhTechHeader/Footer (#527)
+[33mea8f9b4[m fix: home CTAs — remove rounded-2xl, Learn More → /community, Explore → /discover-fund-a, Discover Fund A → /discover-fund-a (#526)
+[33m9f38058[m Merge branch 'main' of https://github.com/hushh-labs/hushh_Tech_website
+[33m6b16015[m fix: login + signup — use common HushhTechHeader + HushhTechFooter, hide old navbar (#525)
+[33mc427482[m fix: delete account — use common HushhTechHeader + HushhTechFooter, hide old navbar/footer (#524)
+[33mc32a05a[m chore: trigger Vercel redeploy after Pro upgrade
+[33m6d13772[m Merge pull request #523 from hushh-labs/revamp/delete-account-v2-accordion
+[33mf0bf34f[m revamp: delete account page — accordion sections matching mockup design
+[33m3cadf40[m Merge pull request #522 from hushh-labs/revamp/delete-account-design-alignment
+[33m080d99d[m revamp: delete account page & modal — align with Step 1-8 design philosophy
+[33m7a6abb0[m Merge pull request #521 from hushh-labs/fix/delete-account-design
+[33m17b2c27[m fix: delete account page — aligned with onboarding design
+[33m1db0fc6[m Merge pull request #520 from hushh-labs/fix/login-signup-design-alignment
+[33me7def03[m fix: login + signup pages — aligned with onboarding design language
+[33m85ca05d[m Merge pull request #519 from hushh-labs/fix/nws-non-verified-badge
+[33m198f72c[m fix: NWS shows 'non-verified' pill badge instead of 'no data available'
+[33mb52fd88[m Merge pull request #518 from hushh-labs/fix/investor-profile-formatting
+[33mbff0af0[m fix: investor profile field alignment — consistent formatting
+[33m503d19c[m Merge pull request #517 from hushh-labs/fix/profile-back-header-no-footer
+[33mb22fee8[m fix: profile page — use BackHeader + remove footer nav bar
+[33me398928[m Merge pull request #516 from hushh-labs/fix/footer-self-nav
+[33ma2c128d[m fix: HushhTechFooter built-in navigation with useNavigate
+[33m672ce54[m Merge pull request #515 from hushh-labs/fix/profile-footer-nav
+[33mb3dcb94[m fix: profile footer nav + reduce header whitespace
+[33m33b33a6[m Merge pull request #514 from hushh-labs/fix/profile-header-margin
+[33m20f4b21[m fix: profile page use HushhTechHeader + reduce top margin
+[33mbb012fa[m Merge pull request #513 from hushh-labs/fix/profile-revamp-no-polling
+[33m49568b9[m fix: profile page — stop 401 polling + Tailwind UI revamp
+[33m94c8aee[m Merge pull request #512 from hushh-labs/feat/community-logic-ui-split
+[33m9a19357[m refactor: separate community page logic/UI + Tailwind revamp
+[33md8dd66d[m Merge pull request #511 from hushh-labs/feat/fund-a-v3-refined
+[33mf248ea3[m feat: Fund A v3 — pixel-perfect alignment with profile + step 1-8 (FieldRow, FeatureCard, icons)
+[33m4cc81e4[m Merge pull request #510 from hushh-labs/fix/footer-nav-all-tabs
+[33mc3e2ae0[m fix: footer nav — all tabs navigate (Home, Fund A, Community, Profile)
+[33m65070d7[m Merge pull request #509 from hushh-labs/feat/fund-a-revamp
+[33m0eb1000[m feat: revamp Fund A page — matches step 1-8 design language (Tailwind, black, Playfair)
+[33m5774f2b[m Merge pull request #508 from hushh-labs/fix/hamburger-black-color
+[33m2996b3b[m fix: hamburger button color indigo → black
+[33mf45c8d8[m Merge pull request #507 from hushh-labs/fix/single-header-black-hamburger
+[33mc5f2a25[m fix: single header with black hamburger — remove duplicate, hide global navbar on profile
+[33m3e0881e[m Merge pull request #506 from hushh-labs/feat/hamburger-menu-nav-drawer
+[33ma3f8578[m feat: hamburger menu + nav drawer — replaces help icon, adds full-screen navigation
+[33m9912845[m Merge pull request #505 from hushh-labs/fix/dropdown-arrow-clickable
+[33m745fab3[m fix: dropdown arrows now clickable — icon uses pointer-events-none overlay on select
+[33m4db8064[m Merge pull request #504 from hushh-labs/fix/profile-cta-alignment
+[33m2498d4f[m fix: replace raw AI button with HushhTechCta — proper font-semibold, h-14, tracking-wide
+[33maa3643f[m Merge pull request #503 from hushh-labs/align/profile-with-onboarding-steps
+[33mf9353a5[m align: profile page design with onboarding steps 1-9 pattern — same wrapper, header FAQs, CTA layout, spacing
+[33m528a712[m Merge pull request #502 from hushh-labs/fix/vercel-cache-headers
+[33maec798c[m fix: add no-cache headers for SPA routes to prevent stale bundle 404s
+[33m365fef1[m Merge pull request #501 from hushh-labs/redesign/profile-refined-2.0
+[33mceb5022[m redesign: investor profile page — Refined 2.0 with Apple Settings-style layout, Playfair Display, inline rows, minimal black/white palette
+[33m2e09f38[m Merge pull request #500 from hushh-labs/redesign/profile-page-premium
+[33md64474a[m redesign: profile page with premium Hushh design - HushhTechBackHeader, HushhTechCta, black/white theme, Playfair Display
+[33m4b44939[m Merge pull request #499 from hushh-labs/fix/profile-page-logic-split
+[33m2434f40[m fix: properly export all variables from profile logic hook
+[33ma524830[m Merge pull request #498 from hushh-labs/feat/verification-pages-redesign
+[33m8b8f5c7[m feat: redesign verify-identity, verify-complete, meet-ceo pages to premium Hushh design
+[33md26f2ff[m Merge pull request #497 from hushh-labs/feat/meetceo-premium-redesign
+[33m5004153[m feat: redesign MeetCeo page to premium Hushh design
+[33m472dab7[m Merge pull request #496 from hushh-labs/feat/step13-premium-redesign
+[33ma5bb9ec[m feat: redesign Step 13 Bank Details to premium Hushh design
+[33m1201543[m Merge pull request #495 from hushh-labs/feat/step11-premium-redesign
+[33m2c5a806[m feat: redesign Step 11 Investment Summary to premium Hushh design
+[33m8dba1dd[m Merge pull request #494 from hushh-labs/fix/step9-overlay-select-and-age
+[33m2e922ae[m fix: Step 9 overlay selects for mobile + 18+ age validation
+[33m451106b[m Merge pull request #493 from hushh-labs/fix/step9-dropdown-clickable
+[33m080a573[m fix: make Step 9 DOB dropdowns clickable on entire row
+[33m47e3e98[m Merge pull request #492 from hushh-labs/fix/vercel-cache-headers
+[33m3bf0c9e[m fix: add no-cache headers for SPA routes to prevent stale chunk 404s
+[33m4c369ad[m Merge pull request #491 from hushh-labs/ui/step9-premium-design
+[33m95aefaa[m ui: Step 9 
